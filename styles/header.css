@@ -1,0 +1,67 @@
+
+.logo>img {
+    margin-left: 30%;
+    width: 190;
+    height: 62px;
+    
+  }
+  header {
+      display: flex;
+      justify-content: space-between;
+      flex-basis: 10%;
+      
+  
+  }
+  
+    nav li {
+      margin-right: 6rem;
+  
+      
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+     
+    }
+    nav li a {
+      color: white;
+      display: block;
+      text-decoration: none;
+      padding: .4em 0em;
+      margin-top: 5px;
+      width: auto;
+      font-family: pixel;
+      font-size:1.0rem;
+      -moz-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      -webkit-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in;
+      display: block;
+    
+      
+    }
+    nav li a:hover, li>.active {
+      color: #ffffff;
+      text-shadow:0px 0px 30px #ffffff;
+      -moz-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      -webkit-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in;
+  
+    }
+    .checkbtn {
+        font-size: 3.5rem;
+        color: #ffffff;
+        float: right;
+        display:none;
+      
+      }
+      .check {
+        display:none;
+      }
+    @media (max-width:858px){
+
+    }
