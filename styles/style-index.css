@@ -21,9 +21,12 @@ body {
     float: right;
   }  
   .right-side>img{
+    display:block;
+    position: relative;
     height: 15rem;
     width: 15rem;
     animation: up-down 1.4s infinite ease-in-out alternate;
+    z-index: 1;
   }
   @keyframes up-down{
     from{
@@ -47,9 +50,11 @@ body {
 .right-side>h1{
   margin-bottom: 0px;
 }
-button {
+.right-side> button {
     width: 310px;
     height: 68px;
+    border: 0;
+    border-radius: 5px;
     font-family: pixel;
     background-color: white;
     font-size: 2.1rem;
@@ -57,8 +62,15 @@ button {
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+    animation: blink 1.0s infinite alternate;
 }
-button:hover {
+@-webkit-keyframes blink {
+  100% {
+    box-shadow: 0 0 5px #fff, 0 0 0px #fff, 0 0 20px #fff, 0 0 0px #fff,
+      0 0 0px #e7e7e7, 0 0 0px #fff;
+  }
+}
+.right-side button:hover {
   color: #ffffff;
   background-color: rgb(54, 54, 54);
   text-shadow:0px 0px 30px #ffffff;

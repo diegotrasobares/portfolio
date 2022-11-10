@@ -1,10 +1,5 @@
 
-.logo>img {
-    margin-left: 30%;
-    width: 190;
-    height: 62px;
-    
-  }
+
   header {
       display: flex;
       justify-content: space-between;
@@ -24,7 +19,7 @@
       margin: 0;
       display: flex;
       justify-content: space-between;
-     
+      
     }
     nav li a {
       color: white;
@@ -52,16 +47,62 @@
       transition: all 0.2s ease-in;
   
     }
-    .checkbtn {
-        font-size: 3.5rem;
+    .nav-toggle {
+        font-size: 3.0rem;
         color: #ffffff;
         float: right;
-        display:none;
+        display: none;
+        background: none;
+        border: 0;
+        margin-bottom: 1rem;
+      }
+      .logo>img {
+        margin-left: auto;
+        width: 190;
+        height: 62px;
+        
+      }
       
+    @media (max-width:1314px){
+    
+       
+      .menu-header {
+        margin-top: 3%;
+        position:absolute;
+        right: -65%;
+        transition: all 0.3s;
       }
-      .check {
-        display:none;
+      nav ul {
+        position: relative;
+        flex-direction: column;
+        line-height: 2rem;
+        margin-top: 2rem;
+        background-color: #292929;
+        border: 0px solid black;
+        box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px 0  0  15px;
+        align-items: center;
+        gap: 1rem;
+        animation: neon4 1.5s ease-in-out infinite alternate;
+        padding: 1rem 2rem 1rem 3rem;
       }
-    @media (max-width:858px){
-
+      nav li a {
+        font-size: 1.5rem;
+        border: 1px solid white;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 1rem 1rem 1rem 1rem;
+      }
+      nav li {
+        margin-right: 0rem;
+      }
+      .nav-toggle {
+        display: block;
+        line-height: 1.7rem;
+      }
+      .nav-menu_visible {
+        right: 0%;
+        z-index: 2;
+        
+      }
     }
