@@ -89,6 +89,14 @@ main{
   gap: 3rem;
   margin-top: 0.5rem;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
 
 @media (max-width:414px){
 .right-side>img {
