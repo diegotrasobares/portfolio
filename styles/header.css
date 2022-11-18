@@ -73,8 +73,8 @@
       .menu-header {
         margin-top: 3%;
         position:absolute;
-        top: -100%;
-        right: 30%;
+        top: -200%;
+        right: 20%;
         transition: all 0.3s;
       }
       nav ul {
@@ -107,7 +107,7 @@
       }
       .nav-menu_visible {
         top: 0%;
-        right: 30%;
+        right: 20%;
         z-index: 2;
         
       }

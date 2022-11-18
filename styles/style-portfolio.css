@@ -1,0 +1,7 @@
+main {
+    display: flex;
+}
+.contenido {
+    width: 200px;
+    height: 100px;
+}
