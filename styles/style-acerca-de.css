@@ -1,11 +1,23 @@
 .puntero{
-    width: 60px;
-    height: 50px;
-    line-height: 5rem;
-    margin-top: 5px;
-}
-button {
-    width: 400px;
-    
+    width: 50px;
+    height: 40px;
+    line-height: 90%;
     
 }
+footer>button>.contactame {
+    width: 210px;
+
+}
+footer>button>.ver-original{
+color: rgb(226, 38, 5);
+}
+footer>button>.ver-original:hover{
+    color: white
+    }
+
+a {
+    font-size: 1.5rem;
+    font-family: pixel;
+}
+
+

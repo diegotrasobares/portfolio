@@ -4,6 +4,9 @@
     gap: 1rem;
     
 }
+p{
+    font-size: 1.5rem;
+}
 .right-side{
 
     text-align: center;
@@ -19,9 +22,6 @@
     font-family: pixel;
     background-color: rgb(32, 32, 32);
     font-size: 2.1rem;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
     animation: blink 1.0s infinite alternate;
 line-height: 2rem;
@@ -42,4 +42,22 @@ margin-top: 1rem;
 }
 .right-side>button>a:hover{
     color: black;
+}
+@media (max-width:414px){
+    .content{
+        flex-direction: column;
+    }
+    hr {
+        width: 300px;
+        height: 1px;
+    }
+    p {
+        width: 17rem;
+    }
+    @-webkit-keyframes blink {
+        100% {
+          box-shadow: 0 0 5px rgb(252, 252, 252), 0 0 0px rgb(252, 252, 252), 0 0 20px rgb(252, 252, 252), 0 0 0px rgb(252, 252, 252),
+            0 0 0px rgb(252, 252, 252), 0 0 0px rgb(252, 252, 252);
+        }
+      }
 }

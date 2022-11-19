@@ -1,4 +1,5 @@
 
+
 .imagenes-texto {
     display:flex;
     flex-direction: column;
@@ -31,4 +32,11 @@ footer {
     margin-top: 0.8rem;
 }
 
-
+@media (max-width:920px){
+    .top-image,.bottom-image {
+        flex-direction: column;
+    }
+    .bottom-image {
+        flex-direction: column-reverse
+    }
+}
