@@ -32,6 +32,7 @@ footer {
     margin-top: 0.8rem;
 }
 
+/*Convierto las imagenes a columna para verlas mejor*/
 @media (max-width:920px){
     .top-image,.bottom-image {
         flex-direction: column;

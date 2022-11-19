@@ -1,11 +1,12 @@
 
 /*Estilos generales para las paginas*/
 body{
-    background-image:url("../img/pixel-art-stars-Moon-clouds-1364301-wallhere.com.jpg") ;
+    background-image:url("../img/fondo2.jpg") ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-blend-mode:soft-light;
+    
     
     }
     main {
@@ -82,9 +83,7 @@ footer>button:hover {
 }
 .social-media>img{
   box-shadow:0px 0px 30px #f8f6f8;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  -webkit-transition: all 0.2s ease-in;
+
   transition: all 0.2s ease-in;
 }
 /*Estilos responsive*/
@@ -103,6 +102,7 @@ justify-content: center;
   }
   p {
     font-size: 1.5rem;
+    text-align: center;
   }
   main div img {
     display: none;
@@ -111,13 +111,14 @@ justify-content: center;
     gap: 0;
     font-size: 1.3rem;
     text-align: center;
-    
+    margin: 0;
   }
   .title h1 {
     color: black;
     background-color: white;
     padding: 0.4rem;
     border-radius: 5px;
+    width: 100%;
   }
   main {
     padding: 1rem;
@@ -135,6 +136,4 @@ justify-content: center;
     color: white;
   }
 }
-@media (max-width:768px){
 
-}
