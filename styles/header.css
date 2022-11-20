@@ -4,6 +4,10 @@
   font-family: pixel;
   src: url("../fonts/DePixelHalbfett.ttf");
 }
+@font-face {
+  font-family: montserrat;
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
   header {
       display: flex;
       justify-content: space-between;
@@ -27,7 +31,7 @@
       
     }
     nav li a {
-      color: white;
+      color: rgb(255, 255, 255);
       display: block;
       text-decoration: none;
       padding: .4em 0em;
@@ -44,8 +48,8 @@
       
     }
     nav li a:hover, li>.active {
-      color: #ffffff;
-      text-shadow:0px 0px 30px #ffffff;
+      color: hsl(0, 0%, 100%);
+      text-shadow:0px 0px 30px hsl(0, 0%, 100%);
       -moz-transition: all 0.2s ease-in;
       -o-transition: all 0.2s ease-in;
       -webkit-transition: all 0.2s ease-in;
@@ -54,7 +58,7 @@
     }
     .nav-toggle {
         font-size: 3.0rem;
-        color: #ffffff;
+        color: hsl(0, 0%, 100%);
         float: right;
         display: none;
         background: none;
@@ -64,7 +68,7 @@
       .logo>img {
         margin-left: auto;
         width: 190;
-        height: 62px;
+        height: 3.875rem;
         
       }
       /*Lo hago responsive para convertirlo en menú desplegable*/
