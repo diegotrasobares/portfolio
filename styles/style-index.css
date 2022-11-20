@@ -68,7 +68,7 @@ main{
     transition: all 0.2s ease-in;
     animation: blink 1.0s infinite alternate;
 }
-@-webkit-keyframes blink {
+@keyframes blink {
   100% {
     box-shadow: 0 0 5px #fff, 0 0 0px #fff, 0 0 20px #fff, 0 0 0px #fff,
       0 0 0px #e7e7e7, 0 0 0px #fff;
